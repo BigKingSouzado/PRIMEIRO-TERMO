@@ -1,0 +1,70 @@
+# Revisão de contéudo:
+# print = "Função de saída de dados para o console"
+#input = "Função de entrada de dados do usuário via teclado"
+#       elif = "Combinação de else + if para verificar múltiplas condições"
+#       else = "parte opcional de um if que execulta código quando a condição do if é falsa"
+#  f =  chama a variavel para o print
+# for = "Laço de repetição para iterar sobre uma sequência de 
+# while = "Laço de repetição para execultar código enquanto uma condição for verdadeira"
+# operadores matemáticos: +, -, *, /, //, %, **
+# operadores de comparação: ==, !=, >, <, >=, <=
+# Variavel = "Exemplo de variável para armazenar dados"
+# print(variavel)
+
+
+# # Exemplo 1: Com print e input
+# nome = input("Digite seu nome:")
+# print(f"olá, {nome}! Bem-vindo á aula de python para desenvolver de sistemas!")
+
+
+# # Exemplo 2: Com if, elif e else
+# nota = float(input("digite a nota do aluno: "))
+# if nota >= 7:
+#     print("Aluno aprovado!")
+# elif nota >= 5:
+#     print("Aluno em recuperação.")
+# else:
+#     print("Aluno reprovado")
+
+
+# # Exemplo 3: com for
+# materiais = ["metal", "plastico", "vidro"]
+# for material in materiais:
+#     print(f"Processando material: {material}.")
+#     print("Material {material} processado com sucesso!")
+# print("Fim do processamento de materiais.")
+
+#"Aula de hoje!"
+
+# 2. O laço while (repetições indeterminadas)
+# use o while quando você não sabe quando vai parar. Ele depende de uma condição (como um sensor de segurança ou um botão de emergência).
+# Exemplo: Monitor de temperatura (loop infinito controlado)
+# Repete enquanto a temperatura estiver segura
+# import time
+# temperatura = 25
+# while temperatura < 40:
+#     print(f"Temperatura atual: {temperatura}°C. Sistema operando...")
+#     time.sleep(1)
+#     temperatura += 3 # Simulando o aquuecimento da máquina
+# print("ALERTA! temperatura atingiu o limite. Desligando motor...")
+
+# # LIsta de temperaturas lidas pelo sensor por minutos
+# leituras =[70, 75, 82, 98, 110, 85, 80]
+# for temp in leituras:
+#     while temp > 100:
+#         print(f"CRÍtiCO: {temp}°C detectado! acionando parada de emergência.")
+#         break # O loop para aqui e NÃo lê os próximos valores (85 e 80)
+#     print(f"Temperatura está em {temp}°C. operação normal.")
+# print("Sistema desligado. Aguardando manutenção.")
+
+# # Produção de peças com controle de material usando continue
+# materiais = ["metal", "metal", "plastico", "metal", "vidro", "metal"]
+# for peca in materiais:
+#     if peca != "metal":
+#         print(f"Aviso: peça de {peca} detectada. desviando para descarte...")
+#         continue #pula o restante do código abaixo e vai para a próxima peça
+#     #este código só roda se a peça for de metal
+#     print(f"Processando peça de {peca}. Furando e polindo")
+# print("Fim do lote de produção.")
+
+
