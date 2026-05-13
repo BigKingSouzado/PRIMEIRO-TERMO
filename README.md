@@ -11,7 +11,7 @@ sistemas operacionais
 arquitetura de rede
 
 ## LER
-
+levantamento de requisitos
 
 
 
