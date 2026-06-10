@@ -29,3 +29,5 @@ janela_inicial.title("Cadastro do Usuário")
 janela_inicial.geometry("600x700")
 
 # Labels
+
+
